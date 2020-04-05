@@ -11,7 +11,7 @@ The following are the tools used in the project:
 
 Launch it in your terminal:
 ```sh
-python3 main.py
+python3 app.py
 ```
 
 Open the url:
