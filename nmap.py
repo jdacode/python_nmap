@@ -1,12 +1,18 @@
-from flask import Flask
-
-app = Flask(__name__)
+import nmap3
 
 
-@app.route('/')
-def hello():
-    return 'Hello Motherfuckers!'
+class Nmap:
+    def __init__(self, ip):
+        self.ip = ip
+
+    def run_nmap(self):
+        print(self.ip)
+        nmap = nmap3.Nmap()
+        os_results = nmap.scan_top_ports("127.0.0.1")
+        return os_results
 
 
-if __name__ == '__main__':
-    app.run()
+
+
+
+

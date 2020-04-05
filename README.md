@@ -16,7 +16,7 @@ python3 main.py
 
 Open the url:
 ```sh
-http://localhost:80/
+http://localhost:5000/
 ```
 
 
