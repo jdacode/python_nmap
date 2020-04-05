@@ -3,7 +3,6 @@
 
 The following are the tools used in the project:
 
-- Hyperledger Iroha (in VM Ubuntu 16.04.6)
 - Python 3
 - Flask
 
