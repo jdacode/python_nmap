@@ -5,12 +5,18 @@ The following are the tools used in the project:
 
 - Python 3
 - Flask
+- Python3-nmap
+- Nmap
 
 
 ## Launch 
 
 Launch it in your terminal:
 ```sh
+pip3 install -r requirements.txt
+
+apt-get install nmap
+
 python3 app.py
 ```
 
